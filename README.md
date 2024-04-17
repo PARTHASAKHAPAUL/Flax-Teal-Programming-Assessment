@@ -1,4 +1,4 @@
-# Flax-Teal-Programming-Assessment
+# **`Flax & Teal`** Programming Assessment
 
 ## Problems based on Runge-Kutta (RK4) Method
 
