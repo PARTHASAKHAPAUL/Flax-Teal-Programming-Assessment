@@ -1,10 +1,16 @@
 # Burgers' Equation Solver using RK4 Method
 
-This folder contains a Python script to numerically solve the Burgers' equation using the fourth-order Runge-Kutta (RK4) method. Burgers' equation is a fundamental partial differential equation from fluid mechanics which can describe shock waves and boundary layer phenomena in viscous flows.
+This folder contains a Python script to numerically `solve` and `visualize` the solution of the Burgers' equation using the fourth-order Runge-Kutta (RK4) method. Burgers' equation is a fundamental partial differential equation from fluid mechanics which can describe shock waves and boundary layer phenomena in viscous flows.
 
 ## Description
 
 The script implements the RK4 method to solve the Burgers' equation over a spatial domain with periodic boundary conditions. The numerical solution approach involves discretizing the spatial domain and then improving the solution in time through the RK4 iterative scheme.
+
+Burgers' equation is a fundamental partial differential equation from fluid mechanics. The equation in one dimension is given by:
+
+$\frac{\partial u}{\partial t}$ + $u \frac{\partial u}{\partial x}$ = $\nu \frac{\partial^2 u}{\partial x^2}$
+
+where $u$ is the velocity field, $\nu$ is the viscosity coefficient, $x$ is the spatial coordinate, and $t$ is time.
 
 
 ## Configuration
